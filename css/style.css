@@ -1,0 +1,84 @@
+.heading-pry {
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+}
+.heading-pry--main {
+    display: block;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 1.5rem;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    /*
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    */
+}
+@media (max-width: 37.5em) {
+    .heading-pry--main {
+        letter-spacing: 1rem;
+        font-size: 4rem;
+    }
+}
+.heading-pry--sub {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1.35rem;
+    animation: moveInLeft 1s ease-out;
+}
+@media (max-width: 37.5em) {
+    .heading-pry--sub {
+        letter-spacing: .4rem;
+        font-size: 1.5rem;
+    }
+}
+.heading-sec {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    transition: all .2s;
+    color: #6495ED;
+}
+@supports (-webkit-background-clip: text) {
+    .heading-sec {
+    background-image: linear-gradient(to right, rgb(65, 105, 225),
+    rgb(15, 82, 186));
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    }
+}
+@media (max-width: 56.25em) {
+    .heading-sec {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 37.5em) {
+    .heading-sec {
+        font-size: 2.5rem;
+    }
+}
+.heading-sec:hover {
+    transform: skewX(10deg) skewY(2deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, .2);
+}
+
+.heading-ter {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.paragraph {
+    font-size: 1.6rem;
+    text-align: left;
+}
+.paragraph:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+

@@ -1,0 +1,33 @@
+.feature-box {
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 2.5rem;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+    transition: all .3s;
+}
+@media (max-width: 37.5em) {
+    .feature-box {
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 3rem;
+    }
+}
+
+.feature-box:hover {
+    transform: translateY(-.3rem) scale(1.12);
+}
+
+.feature-box__icon {
+    font-size: 4rem;
+    margin-bottom: .5rem;
+}
+@supports (-webkit-background-clip: text) {
+    .feature-box__icon {
+    background-image: linear-gradient(to right, rgba(65, 105, 225, 0.7),
+    rgba(15, 82, 186, .7));
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    }
+}

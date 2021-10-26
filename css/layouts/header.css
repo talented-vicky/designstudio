@@ -1,0 +1,43 @@
+.head {
+    height: 85vh;
+    background-image: linear-gradient(to right bottom,
+    rgba(65, 105, 225, 0.8),
+    rgba(15, 82, 186, 0.8)),
+    url(../../image/main\ image.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+@supports (-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0)){
+    .head {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 63vh, 65% 63vh, 63% 570vh, 0 57vh);
+        clip-path: polygon(0 0, 100% 0, 100% 63vh, 65% 63vh, 63% 57vh, 0 57vh);
+        height: 70vh;
+    }
+}
+
+@media (max-width: 37.5em){
+    .head {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 63vh, 65% 63vh, 63% 570vh, 0 57vh);
+        clip-path: polygon(0 0, 100% 0, 100% 63vh, 65% 63vh, 63% 570vh, 0 57vh);
+    }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 37.5em),
+        (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+        (min-width: 125em){
+    .head {
+    background-image: linear-gradient(to right bottom,
+    rgba(65, 105, 225, 0.8),
+    rgba(15, 82, 186, 0.8)),
+    url(../../image/main\ image.jpg);
+    }
+}
+
+.head__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

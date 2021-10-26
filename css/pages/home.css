@@ -1,0 +1,98 @@
+.section-about {
+    background-color: #f7f7f7;
+    padding: 15rem 0;
+    margin-top: -20vh;
+}
+@media (max-width: 47.9375em) {
+    .section-about {
+        padding-bottom: 49rem;
+    }
+}
+@media (max-width: 37.5em) {
+    .section-about {
+        padding-top: 24rem;
+        padding-bottom: 58rem;
+    }
+}
+
+.section-features {
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom,
+    rgba(65, 105, 225, 0.8),
+    rgba(15, 82, 186, 0.8)),
+    url(../../image/main\ image.jpg);
+    background-size: cover;
+    margin-top: -10rem;
+}
+@media (max-width: 47.9375em) {
+    .section-features {
+        margin-top: -18rem;
+    }
+}
+
+@media (max-width: 37.5em) {
+    .section-features {
+        margin-top: -20rem;
+        padding-top: 20rem;
+    }
+}
+
+.section-tours {
+    padding: 15rem 0;
+    background-color:  #f7f7f7;
+    margin-top: -10rem;
+}
+@media (max-width: 56.25em) {
+    .section-tours {
+        padding-bottom: 10rem;
+    }
+}
+@media (max-width: 37.5em) {
+    .section-tours {
+        padding-bottom: 9.5rem;
+    }
+}
+
+.section-stories {
+    padding: 10rem 0;
+    position: relative;
+}
+.section-booking {
+    padding: 10rem 0;
+    background-image: linear-gradient(to right bottom, #4169E1, #0F52BA);
+}
+.book {
+    background-image: linear-gradient(105deg, 
+    rgba(255, 255, 255, .9) 0%, 
+    rgba(255, 255, 255, .9) 50%,
+    transparent 50%), 
+    url(../../image/unilag_eng.png);
+    background-size: cover;
+    width: 122rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .44);
+    margin: 0 auto;
+    border-radius: 3px;
+    text-align: left;
+}
+.book__form {
+    width: 50%;
+    padding: 4rem;
+}
+@media (max-width: 61.9375em) {
+    .book__form {
+        width: 70%;
+    }
+    .book {
+        background-image: linear-gradient(105deg, 
+        rgba(255, 255, 255, .9) 0%, 
+        rgba(255, 255, 255, .9) 70%,
+        transparent 70%), 
+        url(../../image/unilag_eng.png);
+    }
+}
+
+.footer {
+    padding: 4rem 0;
+    background-color: #333;
+    font-size: 1.4rem;
+}
