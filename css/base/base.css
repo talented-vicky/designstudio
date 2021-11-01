@@ -10,18 +10,12 @@ rgb(100, 149, 237)
 Saphire blue: #0F52BA
 rgba(15, 82, 186, 0.8)
 
-blue => #0000FF rgb(0, 0, 255)
-Blue Gray	=> #7393B3	rgb(115, 147, 179)
-Blue Green	=> #088F8F	rgb(8, 143, 143)
-Bright Blue	=> #0096FF
-Cobalt Blue	#0047AB	rgb(0, 71, 171)
-Dark Blue	#00008B	rgb(0, 0, 139)
-Egyptian Blue	#1434A4	rgb(20, 52, 164)
-Glaucous	#6082B6	rgb(96, 130, 182)
-Indigo	#3F00FF	rgb(63, 0, 255
-Neon Blue	#1F51FF	rgb(31, 81, 255
-Ultramarine	#0437F2	rgb(4, 55, 242)
-Steel Blue	#4682B4	rgb(70, 130, 180
+/*
+tan	= > #D2B48C	rgb(210,180,140)
+
+wheat = > #F5DEB3	rgb(245,222,179)
+
+wheeetes = > #c69963 rgb(198, 153, 99);
 */
 
 :root {

@@ -24,8 +24,8 @@
 }
 @supports (-webkit-background-clip: text) {
     .feature-box__icon {
-    background-image: linear-gradient(to right, rgba(65, 105, 225, 0.7),
-    rgba(15, 82, 186, .7));
+    background-image: linear-gradient(to right, rgba(245, 222, 179, .7),
+    rgba(198, 153, 99, .7));
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;

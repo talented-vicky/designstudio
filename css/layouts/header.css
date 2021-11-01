@@ -1,8 +1,8 @@
 .head {
     height: 85vh;
     background-image: linear-gradient(to right bottom,
-    rgba(65, 105, 225, 0.8),
-    rgba(15, 82, 186, 0.8)),
+    rgba(245, 222, 179, .8),
+    rgba(198, 153, 99, .8)),
     url(../../image/main\ image.jpg);
     background-size: cover;
     background-position: top;
@@ -28,8 +28,8 @@
         (min-width: 125em){
     .head {
     background-image: linear-gradient(to right bottom,
-    rgba(65, 105, 225, 0.8),
-    rgba(15, 82, 186, 0.8)),
+    rgba(245, 222, 179, .8),
+    rgba(198, 153, 99, .8)),
     url(../../image/main\ image.jpg);
     }
 }

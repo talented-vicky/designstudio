@@ -27,7 +27,7 @@
     transform: scale(1.05) translateY(-.5rem);
     box-shadow:  0 3rem 4rem rgba(0, 0, 0, .5);
     z-index: 10;
-    outline: 1.5rem solid #6495ED;
+    outline: 1.5rem solid #D2B48C;
 }
 .composition:hover .composition__photo:not(:hover) {
     transform: scale(.95);

@@ -42,12 +42,12 @@
     font-weight: 700;
     letter-spacing: .2rem;
     transition: all .2s;
-    color: #6495ED;
+    color: #D2B48C;
 }
 @supports (-webkit-background-clip: text) {
     .heading-sec {
-    background-image: linear-gradient(to right, rgb(65, 105, 225),
-    rgb(15, 82, 186));
+    background-image: linear-gradient(to right, rgba(245, 222, 179),
+    rgb(198, 153, 99));
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent;

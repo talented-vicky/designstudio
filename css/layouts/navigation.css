@@ -135,7 +135,7 @@
     left: 0;
     width: 3px;
     height: 80%;
-    background-color: #6495ed80;
+    background-color: #D2B48C;
     transition: transform .2s,
                width .5s cubic-bezier(1, 0, 0, 1) .2s,
                background-color .2s;
@@ -165,12 +165,13 @@
  }
 }
 
-.side-nav__icon {
-   font-size: 1.75rem;
+
+ion-icon {
+  font-size: 1.7rem;
 }
 
 @media only screen and (max-width: 56.25em) {
- .side-nav__icon {
+ion-icon {
    font-size: 1.5rem;
  }
 }

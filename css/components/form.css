@@ -16,7 +16,7 @@
 }
 .form__input:focus {
     outline: none;
-    border-bottom: 3px solid #6495ED;
+    border-bottom: 3px solid #D2B48C;
     box-shadow: 0 2rem 2rem rgba(0, 0, 0, .1);
 }
 .form__input:focus:invalid {
@@ -56,7 +56,7 @@
     width: 3rem;
     height: 3rem;
     border-radius: 10rem;
-    border: 5px solid #6495ED;
+    border: 5px solid #D2B48C;
     display: inline-block;
     /* the display can as well be block but not inline*/
     position: absolute;
@@ -68,7 +68,7 @@
     display: block; 
     width: 1.2rem;
     height: 1.2rem;
-    background-color: #6495ED;
+    background-color: #D2B48C;
     border-radius: 12rem;
     position: absolute;
     top: 50%;

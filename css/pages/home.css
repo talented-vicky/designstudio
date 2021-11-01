@@ -18,8 +18,8 @@
 .section-features {
     padding: 15rem 0;
     background-image: linear-gradient(to right bottom,
-    rgba(65, 105, 225, 0.8),
-    rgba(15, 82, 186, 0.8)),
+    rgba(245, 222, 179, .8),
+    rgba(198, 153, 99, .8)),
     url(../../image/main\ image.jpg);
     background-size: cover;
     margin-top: -10rem;
@@ -56,10 +56,11 @@
 .section-stories {
     padding: 10rem 0;
     position: relative;
+    padding-bottom: 13rem;
 }
 .section-booking {
     padding: 10rem 0;
-    background-image: linear-gradient(to right bottom, #4169E1, #0F52BA);
+    background-image: linear-gradient(to right bottom, #F5DEB3, #c69963);
 }
 .book {
     background-image: linear-gradient(105deg, 
